@@ -152,6 +152,8 @@ int main() {
             case 7:
                 cout << "Exiting..." << endl;
                 break;
+              default:
+                cout << "Invalid choice!" << endl;
             
         }
     } while (choice != 7);
